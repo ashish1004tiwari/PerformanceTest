@@ -37,22 +37,22 @@
           </elementProp>
           <elementProp name="BASE_URL_ITEM" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_ITEM</stringProp>
-            <stringProp name="Argument.value">itemservice.jtl-cloud-internal.com/api/</stringProp>
+            <stringProp name="Argument.value">BASE_URL_ITEM</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="APIM_URL" elementType="Argument">
             <stringProp name="Argument.name">APIM_URL</stringProp>
-            <stringProp name="Argument.value">jtlcloud-apim-online-dev-01.azure-api.net/</stringProp>
+            <stringProp name="Argument.value">APIM_URL</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="BASE_URL_DEV_NOSSL" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_DEV_NOSSL</stringProp>
-            <stringProp name="Argument.value">jtlcloud-apim-online-dev-01.azure-api.net/</stringProp>
+            <stringProp name="Argument.value">BASE_URL_DEV_NOSS</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="BASE_URL_DEV_NOSSL3" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_DEV_NOSSL3</stringProp>
-            <stringProp name="Argument.value">itemservice.jtl-cloud-internal.com/</stringProp>
+            <stringProp name="Argument.value">BASE_URL_DEV_NOSSL3</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="****************************************************************************************" elementType="Argument">
