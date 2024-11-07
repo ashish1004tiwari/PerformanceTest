@@ -367,7 +367,7 @@ props.put(&quot;access_token&quot;,accessToken);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get All Category" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories?PageSize=10&amp;PageIndex=1&amp;Sort=path+asc&amp;Search=</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -402,7 +402,7 @@ props.put(&quot;access_token&quot;,accessToken);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Category By ID ">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories/${STATIC_ITEM_CATEGORY_ID}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_ITEM_CATEGORY_ID}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -443,7 +443,7 @@ props.put(&quot;access_token&quot;,accessToken);
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get All Contacts" enabled="true">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-08-18T18:35:49.649985</stringProp>
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}contact/v1/contacts?pagesize=10&amp;pageindex=1&amp;sort=name+asc&amp;search=</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -471,7 +471,7 @@ props.put(&quot;access_token&quot;,accessToken);
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Contact by ID">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-08-18T18:41:31.562807</stringProp>
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}contact/v1/contacts/${STATIC_CONTACT_ID}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_CONTACT_ID}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -499,7 +499,7 @@ props.put(&quot;access_token&quot;,accessToken);
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get All Lookups">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-08-18T18:44:42.9534247</stringProp>
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}lookup/v1/lookup-resources?sort=resourceKey+asc&amp;pageSize=20&amp;pageIndex=1&amp;search=</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -527,7 +527,7 @@ props.put(&quot;access_token&quot;,accessToken);
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Lookup by ID">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-08-18T18:50:12.5228348</stringProp>
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}lookup/v1/lookup-resources/${STATIC_LOOKUP_ID}/en-us</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_LOOKUP_ID}/en-us</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -554,7 +554,7 @@ props.put(&quot;access_token&quot;,accessToken);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get All Pricing Rules Name" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}pricing/v1/pricing-rule</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -595,7 +595,7 @@ props.put(&quot;access_token&quot;,accessToken);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Pricing Rule by ID ">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}pricing/v1/pricing-rule/${STATIC_PRICING_RULE_ID}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_PRICING_RULE_ID}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -754,7 +754,7 @@ props.put(&quot;access_token&quot;,accessToken);
         </ConstantTimer>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create ITEM">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/items</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -840,7 +840,7 @@ props.put(&quot;sku&quot;, sku);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Item by ID ">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/items/${itemId}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${itemId}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -871,7 +871,7 @@ props.put(&quot;sku&quot;, sku);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Update ITEM" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/items/${itemId}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${itemId}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">PUT</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -914,7 +914,7 @@ props.put(&quot;sku&quot;, sku);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Delete ITEM" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/items/${itemId}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${itemId}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -946,7 +946,7 @@ props.put(&quot;sku&quot;, sku);
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Item by ID - Static ID" enabled="false">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-08-18T18:26:44.229984</stringProp>
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/items/${STATIC_ITEM_ID}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_ITEM_ID}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1116,7 +1116,7 @@ props.put(&quot;sku&quot;, sku);
         </ConstantTimer>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Category">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1171,7 +1171,7 @@ props.put(&quot;categoryid&quot;, categoryid);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Category By ID">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories/${categoryid}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${categoryid}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1211,7 +1211,7 @@ props.put(&quot;categoryid&quot;, categoryid);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Sub Category" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1268,7 +1268,7 @@ props.put(&quot;subid&quot;, subid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Update Parent Category" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories/${categoryid}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${categoryid}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">PUT</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1311,7 +1311,7 @@ props.put(&quot;subid&quot;, subid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Delete sub Category" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories/${subid}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${subid}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1342,7 +1342,7 @@ props.put(&quot;subid&quot;, subid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Delete Parent Category" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories/${categoryid}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${categoryid}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1373,7 +1373,7 @@ props.put(&quot;subid&quot;, subid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Category By ID - Static ID" enabled="false">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}item/v1/item-categories/${STATIC_ITEM_CATEGORY_ID}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_ITEM_CATEGORY_ID}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1543,7 +1543,7 @@ props.put(&quot;subid&quot;, subid);</stringProp>
         </ConstantTimer>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Look up">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}lookup/v1/lookup-resources</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1631,7 +1631,7 @@ props.put(&quot;lookupid&quot;, lookupid);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Look up by ID">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}lookup/v1/lookup-resources?PageSize=10&amp;PageIndex=1&amp;Sort=name+asc&amp;Search=${RANDOM_LOOKUP}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${RANDOM_LOOKUP}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1662,7 +1662,7 @@ props.put(&quot;lookupid&quot;, lookupid);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Update Look up">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}lookup/v1/lookup-resources/${RANDOM_LOOKUP}/en-us</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${RANDOM_LOOKUP}/en-us</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">PUT</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1713,7 +1713,7 @@ props.put(&quot;lookupid&quot;, lookupid);
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Delete Look up">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}lookup/v1/lookup-resources/${RANDOM_LOOKUP}/en-us</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${RANDOM_LOOKUP}/en-us</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1745,7 +1745,7 @@ props.put(&quot;lookupid&quot;, lookupid);
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Lookup by ID - Static ID" enabled="false">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-08-18T18:50:12.5228348</stringProp>
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}lookup/v1/lookup-resources/${STATIC_LOOKUP_ID}/en-us</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_LOOKUP_ID}/en-us</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -1944,7 +1944,7 @@ props.put(&quot;lookupid&quot;, lookupid);
         </ConstantTimer>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Contact" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}contact/v1/contacts</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2020,7 +2020,7 @@ props.put(&quot;contactid&quot;, contactid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Contact by ID - Dynamic ID" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}contact/v1/contacts/${contactid}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${contactid}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2051,7 +2051,7 @@ props.put(&quot;contactid&quot;, contactid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Update Contact" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}contact/v1/contacts/${contactid}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${contactid}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">PATCH</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2117,7 +2117,7 @@ props.put(&quot;contactid&quot;, contactid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Delete Contact" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}contact/v1/contacts/${contactid}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${contactid}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2149,7 +2149,7 @@ props.put(&quot;contactid&quot;, contactid);</stringProp>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Contact by ID - Static ID" enabled="true">
           <stringProp name="TestPlan.comments">Created from cURL on 2024-08-18T18:41:31.562807</stringProp>
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}contact/v1/contacts/${STATIC_CONTACT_ID}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_CONTACT_ID}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2305,7 +2305,7 @@ props.put(&quot;contactid&quot;, contactid);</stringProp>
         </ConstantTimer>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Pricing">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}pricing/v1/pricing-rule</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2399,7 +2399,7 @@ props.put(&quot;rulenameid&quot;, rulenameid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Pricing by ID - Dynamic ID" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}pricing/v1/pricing-rule/${rulenameid}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${rulenameid}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2429,7 +2429,7 @@ props.put(&quot;rulenameid&quot;, rulenameid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get All Rules Name" enabled="true">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}pricing/v1/pricing-rule</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2470,7 +2470,7 @@ props.put(&quot;rulenameid&quot;, rulenameid);</stringProp>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Get Pricing Rule by ID - Static ID" enabled="false">
-          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}pricing/v1/pricing-rule/${STATIC_PRICING_RULE_ID}</stringProp>
+          <stringProp name="HTTPSampler.path">${PROTOCOL}://${BASE_URL_DEV_NOSSL}${STATIC_PRICING_RULE_ID}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
