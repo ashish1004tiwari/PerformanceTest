@@ -47,7 +47,7 @@
           </elementProp>
           <elementProp name="BASE_URL_DEV_NOSSL" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_DEV_NOSSL</stringProp>
-            <stringProp name="Argument.value">BASE_URL_DEV_NOSS</stringProp>
+            <stringProp name="Argument.value">BASE_URL_DEV_NOSSL2</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="BASE_URL_DEV_NOSSL3" elementType="Argument">
